@@ -89,15 +89,15 @@ function addBasemap() {
                     var p = properties.id % 5;
                     // console.log(properties)
                     return {
-                        // fillColor: "white",
-                        fillColor: p === 0 ? '#800026' : p === 1 ? '#E31A1C' : p === 2 ? '#FEB24C' : p === 3 ? '#B2FE4C' : '#FFEDA0',
-                        fillOpacity: 0.5,
-                        // fillOpacity: 0.1,
-                        stroke: true,
+                        fillColor: "white",
+                        // fillColor: p === 0 ? '#800026' : p === 1 ? '#E31A1C' : p === 2 ? '#FEB24C' : p === 3 ? '#B2FE4C' : '#FFEDA0',
+                        // fillOpacity: 0.5,
+                        // // fillOpacity: 0.1,
+                        // stroke: true,
                         fill: true,
-                        color: 'black',
-                        opacity: 1,
-                        weight: 0.5,
+                        // color: 'black',
+                        // opacity: 1,
+                        // weight: 0.5,
                     }
                 }
             },
