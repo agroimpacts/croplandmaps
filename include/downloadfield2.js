@@ -11,7 +11,7 @@ L.Control.downloadField = L.Control.extend({
     onAdd: function(map) {
         this._map = map;
         this.dlicon_container = L.DomUtil.create('div','dlicon-button')
-        console.log(this.dlicon_container)
+        this.dlicon_container.background-image == "/icons_zhmeng/download.png"
 
         L.DomEvent.addListener(this.dlicon_container, 'click', L.DomEvent.stopPropagation)
         .addListener(this.dlicon_container, 'click', L.DomEvent.preventDefault)
