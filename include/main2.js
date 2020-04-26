@@ -198,7 +198,7 @@ function addBasemap() {
 			// if (currentLayer) {currentLayer.bringToFront();}
 			console.log("overlayadd:",obj)	
 			// bug = obj;
-			if(obj.name=="AOI 5") {
+			if(obj.name=="Load AOI5 with VectorGrid (fast)"||"Load AOI5 with GeojsonAJAX (mid fast)"||"Load AOI5 with Leaflet function (slow)") {
                 fieldOn = true;
                 vectorTiles_0.bringToFront()
                 // bug = obj.layer._layers
