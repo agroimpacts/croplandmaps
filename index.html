@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!--meta http-equiv="refresh" content="15"-->
+	
+    <title>Mapping Africa</title>
+	
+    <!-- Bootstrap CSS file -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+	<!-- leaflt CSS file -->
+	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css" integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ==" crossorigin=""/>		
+	
+	<link rel="stylesheet" href="css/style.css">
+
+	
+	<!-- Zhenhua's CSS files go here -->
+	<link rel="stylesheet" href="/css/icons_zhmeng.css">
+	<link rel="stylesheet" href="/css/leaflet.groupedlayercontrol.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
+	
+	
+	
+	<!-- JS files: jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.11/js/bootstrap-select.min.js"></script>
+	<!-- D3 -->
+	<script src="https://d3js.org/d3-collection.v1.min.js"></script>
+	<script src="https://d3js.org/d3-dispatch.v1.min.js"></script>
+	<script src="https://d3js.org/d3-dsv.v1.min.js"></script>
+	<script src="https://d3js.org/d3-request.v1.min.js"></script>
+</head>
+
+<body>
+	<script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js" integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og==" crossorigin=""></script>
+
+	<script src="include/main2.js"></script>
+	
+	<!-- Zhenhua's JS files go here -->
+	<script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+	<script src="/include/leaflet.groupedlayercontrol.js"></script>
+	<script src="/include/leaflet.ajax.js"></script>
+	<!-- <script src="include/downloadfield.js"></script> -->
+	<script src="include/downloadfield2.js"></script>
+		<!-- Load Esri Leaflet from CDN -->
+	<script src="https://unpkg.com/esri-leaflet"></script>
+	<script src="https://unpkg.com/leaflet.vectorgrid@latest/dist/Leaflet.VectorGrid.bundled.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-tilelayer-geojson/1.0.4/TileLayer.GeoJSON.js"></script>
+
+
+	
+	
+	
+	
+
+	
+	<!-- Define Elements of Interface -->
+	<header class="banner" style ="height:5%;">
+	    <div id="appIcon"></div>
+	    <h4>2020 Spring Independent Study: Mapping Africa</h4>
+	</header>
+	
+	<main role="main" class="container-fluid" style ="height:89%;">
+
+	    <div class="row height-100">		
+		    <!-- left panel start -->
+ 
+			<!-- left panel end -->
+			
+			<!-- map panel start -->
+			<div class="col-md-12 map-border">
+				<div id="map"></div>
+				<!-- <div id="infoboard"></div> -->
+			</div>
+			<!-- map panel end -->	
+			
+			<!-- right panel start -->
+ 
+			<!-- right panel end -->		
+		</div> <!--row end-->	
+	<!--/div-->
+	</main>
+	
+    <footer class="footer" style ="height:1%;">	
+		<div class="container text-center py-3">
+		    <span>&copy; Jordan & Zhenhua
+			</span>
+		</div>
+	</footer>
+	
+	<body onload="addBasemap()">  
+</body>
+</html>

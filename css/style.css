@@ -1,0 +1,523 @@
+
+body,html {
+	padding: 0;
+	margin: 0;
+	/*height: 100vh;*/
+	height: 100%;
+	width: 100%;
+}
+
+.banner {
+	/*height: 5%;*/
+	border: 1px solid #b2d1ff;
+	margin: 0 auto;
+	/*background-image:linear-gradient(to right, black, blue, #00a3cc, #66e0ff);*/
+	color: white;
+	background: -webkit-linear-gradient(bottom left, red, black, green); 
+	/* background: -webkit-linear-gradient(left, #0033cc, #4d70db, #99adeb, #8099e6, #5c5cff, #b2d1ff, #66c2e0);  */
+	/* background: -o-linear-gradient(left, #0033cc, #4d70db, #99adeb, #8099e6, #5c5cff, #b2d1ff, #66c2e0); For Opera 11.1 to 12.0 */
+	/* background: -moz-linear-gradient(left, #0033cc, #4d70db, #99adeb, #8099e6, #5c5cff, #b2d1ff, #66c2e0); For Fx 3.6 to 15 */
+	/* background: linear-gradient(to right, #0033cc, #4d70db, #99adeb, #8099e6, #5c5cff, #b2d1ff, #66c2e0); Standard syntax (must be last) */
+}
+
+#appIcon {
+	
+	width: 35px;
+	height: 35px;
+	/* background-image: url("icons/1.png"); */
+	background-position: center;
+	background-repeat: no-repeat;
+	float: left;
+}
+
+
+
+.main-container-height {
+	height: 87.5%;
+}
+
+.height-100 {
+	height: 100%;
+}
+
+#map {
+    height: 100%;
+    margin: 0;
+}
+
+
+.map-border {
+	border-width: 1px;
+	border-left-style: solid;
+	border-left-color: #9999;
+	border-right-style: solid;
+	border-right-color: #9999;
+	padding: 0 2px;
+	margin: 0;
+}
+
+.footer1 {
+	background-color: black;
+	color: light grey;
+	height: 7.5%;
+}
+
+/*** left panel ***/
+
+/*
+.panel-overflow {
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	background-color: lightblue;
+}
+
+*/
+
+
+
+
+.tool-panel {
+	width: 99%;
+	height: 2em;
+	color: white;
+	background-color: #0059b3;
+	text-align: center;
+	border: 1px solid #007acc;
+	border-radius: 10px;
+}
+.sm-div-margin {
+	margin: 10px auto;
+}
+
+.middle-select {
+	position: relative;
+	left: 30px;
+	border: 1px solid red;
+}
+
+.bt-middle {
+	text-align: center;
+}
+
+.bt-position {
+	margin: 0 auto;
+}
+
+.stats-div {
+	width: 300px;
+	height: 300px;
+	margin: 0 auto;
+    background-color: white;
+	
+	position: absolute;
+	right: 15px;
+	top: 200px;
+	z-index: 1000;
+}
+
+.province-div {
+	margin-top: 6px;
+	width: 11em;
+	/*border: 1px solid green;*/
+}
+
+.label-div {
+	float: left;
+}
+
+
+/** switch button **/
+/* The switch - the box around the slider */
+.switch {
+  margin-top: 10px;
+  position: relative;
+  display: inline-block;
+  width: 46px;
+  height: 20px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 12px;
+  width: 12px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+/** switch button end **/
+
+table {
+	width: 100%;
+}
+
+td {
+	height: 30px;
+	vertical-align: middle;
+}
+
+.legendIcon {
+	background-image: url("icons/legend18.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 30px;
+	width: 45px;
+	border: 1px solid #bfbfbf;
+
+}
+
+.legendIcon:hover {
+	cursor: pointer;
+}
+
+.legendIcon1 {
+	height: 30px;
+	width: 45px;
+	border: 1px solid #bfbfbf;
+
+}
+
+.legendIcon1:hover {
+	cursor: pointer;
+	/*box-shadow: 0 0 2px 1px rgba(0, 140,186,0.5);*/
+}
+
+.img1 {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 6px;
+	width: 46%;
+}
+
+.img1-clr {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 6px;
+	width: 46%;
+	 
+}
+
+
+.legendIcon-blue {
+	background-image: url("icons/legend20_clr.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 30px;
+	width: 45px;
+	border: 1px solid #bfbfbf;
+
+}
+
+.legendIcon-blue:hover {
+	cursor: pointer;
+}
+
+
+.statsIcon {
+	background-image: url("icons/stats18.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 30px;
+	width: 45px;
+	border: 1px solid #bfbfbf;
+}
+
+.statsIcon:hover {
+	cursor: pointer;
+}
+
+/****** legend style ******/
+#legendDiv {
+	width: 100%;
+	min-height: 100px;
+	margin: 0 auto;
+}
+
+#landcoverLegend {
+	width: 70%;
+	overflow: auto;
+	/*border: solid 1px gray;*/
+	margin: 0 auto;
+}
+
+#landchangeLegend {
+	width: 98%;
+	height: 300px;
+	overflow: auto;
+	border: solid 1px gray;
+	margin: 0 auto;
+	padding-left: 10px;
+}
+
+.legend-div {
+	width: 50%;
+	min-height: 35px;
+	margin: 0 auto;
+	/*border: 1px solid #008060;*/
+	/*overflow: auto;*/
+}
+
+.lgd-display {
+	float: left;
+	width: 40px;
+	height: 35px;
+	line-height: 35px;
+    
+}
+
+
+.lgd-label {
+	width: 150px;
+	font-size: large;
+	/*padding-bottom: 4px;*/
+	padding-left: 5px;
+	/*border: 1px solid red;*/
+	
+}
+
+.lgd-mangrove {
+	background-image: url("icons/legend_1_mangrove.png");
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.lgd-wetland {
+	background-image: url("icons/legend_2_wetland.png");
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.lgd-pond {
+	background-image: url("icons/legend_3_pond.png");
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.lgd-water {
+	background-image: url("icons/legend_4_water.png");
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.lgd-otherlc {
+	background-image: url("icons/legend_5_otherlc.png");
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.lgd-missing {
+	background-image: url("icons/legend_6_missing.png");
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+/*** layer list related ***/
+
+.layer-icons-container {
+	/*border: solid 1px red;*/
+	width: 100%;
+	height: 52px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+.layer-icons-container:hover {
+	background-color: #cceeff;
+}
+
+.layer-name-div {
+	width: 95%;
+	height: 25px;
+	margin: 0 auto;
+	padding: 0;
+	/*background-color: green;*/
+}
+
+.layer-icon-div {
+	width: 85%;
+	height: 25px;
+	margin: 0 auto;
+	padding: 0;
+	
+	/*border: solid 1px black;
+	position: relative;
+	left: 10px;*/
+}
+
+.img-icon-div {
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	margin: 0 0.5em;
+	padding: 0;
+	/*border: solid 1px black;*/
+}
+
+.img-icon-div:hover {
+	cursor: pointer;
+}
+
+
+.icon-legend {
+	background-image: url("./icons/legend_30.png");
+}
+
+.icon-opacity {
+	background-image: url("./icons/transp_40_30.png");
+}
+
+
+.tools {
+	/*
+	display: grid;
+	grid-template-columns: 35px 35px 35px;
+	grid-gap: 10px;
+	*/
+	display: inline-block;
+	background-color: red;
+}
+/*
+#iconGroup {
+	width: 80%;
+	height: 65px;
+	margin: 0 auto;
+	border: solid 1px red;
+}
+
+#legendIconNew {
+	background-image: url("./icons/legend20_clr.png");
+	background-repeat: no-repeat;
+	width: 35px;
+	height: 35px;
+	border: solid 1px black;
+}
+*/
+
+
+
+/*** left panel end ***/
+
+
+/*** right panel ***/
+.info-chart-div {
+	width: 25px;
+	height: 25px;
+	margin-top: 15px;
+	position: relative;
+	left: 170px;
+}
+
+.info-chart-div:hover {
+	cursor: pointer;
+}
+
+.info-icon {
+	background-image: url("./icons/info_24.png");
+	background-repeat: no-repeat;
+}
+
+.chart-icon {
+	background-image: url("./icons/chart_24.png");
+	background-repeat: no-repeat;
+}
+
+#regionCheckbox {
+	width: 100%;
+	border: solid 1px #a6a6a6;
+	border-radius: 5px;
+	border-style: groove;
+	font-size: 76%;
+	font-weight: bold;
+	padding-left: 10px;
+	padding-top: 10px;
+}
+
+#shrimpLogoDiv {
+	background-image: url("./icons/7_18.png");
+	background-repeat: no-repeat;
+	width: 90px;
+	height: 90px;
+	margin: 0 auto;
+}
+
+#aboutInfo {
+	width: 90%;
+	height: 90%;
+	/*border: solid 1px gray;
+	border-radius: 5px;
+	border-style: groove;
+	*/
+	font-size: 85%;
+	color: #666;
+	text-align: center;
+	padding: 7px;
+	margin: 0 auto;
+}
+
+.provinceSelect {
+	margin-bottom: 10px;
+}
+
+
+#transparencyDiv {
+	position: relative;
+	/*
+	left: 30px;
+	*/
+}
+
+/*** right panel end ***/
+
+
+
+
+
