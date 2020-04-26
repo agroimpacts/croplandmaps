@@ -11,6 +11,7 @@ L.Control.downloadField = L.Control.extend({
     onAdd: function(map) {
         this._map = map;
         this.dlicon_container = L.DomUtil.create('div','dlicon-button')
+        console.log(this.dlicon_container)
 
         L.DomEvent.addListener(this.dlicon_container, 'click', L.DomEvent.stopPropagation)
         .addListener(this.dlicon_container, 'click', L.DomEvent.preventDefault)
