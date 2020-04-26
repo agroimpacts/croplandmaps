@@ -152,8 +152,7 @@ function addBasemap() {
     };
     
     var options = {
-    // Make the "Segments" group exclusive 
-    exclusiveGroups: ["Segments"],
+    
     // Show a checkbox next to non-exclusive group labels for toggling all
     groupCheckboxes: false,
     // unfolding
