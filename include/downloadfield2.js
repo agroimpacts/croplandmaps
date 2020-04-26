@@ -11,7 +11,7 @@ L.Control.downloadField = L.Control.extend({
     onAdd: function(map) {
         this._map = map;
         this.dlicon_container = L.DomUtil.create('div','dlicon-button')
-        this.dlicon_container.style.backgroundimage = "url(/croplandmaps/icons_zhmeng/download.png)"
+
 
         L.DomEvent.addListener(this.dlicon_container, 'click', L.DomEvent.stopPropagation)
         .addListener(this.dlicon_container, 'click', L.DomEvent.preventDefault)
