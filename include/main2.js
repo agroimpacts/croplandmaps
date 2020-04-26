@@ -95,9 +95,9 @@ function addBasemap() {
                         // // fillOpacity: 0.1,
                         // stroke: true,
                         fill: true,
-                        // color: 'black',
-                        // opacity: 1,
-                        // weight: 0.5,
+                        color: 'black',
+                        opacity: 1,
+                        weight: 0.5,
                     }
                 }
             },
