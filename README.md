@@ -26,6 +26,9 @@ We also try to load multiple raster tiles from Raster Foundary.
  - The basemap used in this webmap is satellite imagery and is sourced from Esri. Panning and zooming are all possible.
 
  - Additionally, we have successfully used GeoServer to load in some of the imagery stored locally, and are able to some images from RasterFoundry.
+ - The code for the web map as it stands is located on the [AgroImpacts github](https://github.com/agroimpacts/croplandmaps), and [live demo](https://agroimpacts.github.io/croplandmaps/).
+
+
  
  ### Challenges:
  - Download functionality for selected imagery remains a challenge and has yet to be implemented. 
