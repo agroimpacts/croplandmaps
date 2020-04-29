@@ -41,5 +41,7 @@ We also try to load multiple raster tiles from Raster Foundary.
   - A suggestion to eliminate the crashing issue caused from loading the RasterFoundry imagery could be to implement a time-delay for leading each image, so the browser is not overwhelmed. Also, much of the imagery contains overlaps, and so if these overlaps were removed, the map’s efficiency could be improved. However, these are not likely to solve all the problems. A more realistic solution could be to use MapBox to host and display the imagery, or to find some way for it to pull imagery in from E3. Our research did not yield any instances where MapBox could pull data from a specific E3 Bucket, though we know that MapBox does use E3 to stage files for upload onto their service.
  
  
- 
+## Authors
+Jordan Frey
+Zhenhua Meng
  
