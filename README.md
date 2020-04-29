@@ -42,6 +42,5 @@ We also try to load multiple raster tiles from Raster Foundary.
  
  
 ## Authors
-Jordan Frey
-Zhenhua Meng
+Jordan Frey & Zhenhua Meng
  
